@@ -11,13 +11,13 @@ def normalize_vendor_name(name: str) -> str:
     """Strip punctuation and case differences for canonical matching."""
     if not name:
         return ""
-    # Strip dots, commas, dashes, and lowercase
-    cleaned = re_cleanup = name.lower().replace(".", "").replace(",", "").replace("-", "").strip()
-    # Remove common suffixes like "ltd", "pvt", "llc", "inc"
-    suffixes = ["pvt ltd", "pvt", "ltd", "llc", "inc", "corp", "co", "incorporated", "limited"]
+    # Strip dots, commas, dashes, all spaces and lowercase
+    cleaned = name.lower().replace(".", "").replace(",", "").replace("-", "").replace(" ", "").strip()
+    # Remove common suffixes
+    suffixes = ["pvtltd", "pvt", "ltd", "llc", "inc", "corp", "co", "incorporated", "limited", "group", "solutions", "technologies", "services"]
     for s in suffixes:
         if cleaned.endswith(s):
-            cleaned = cleaned[:-len(s)].strip()
+            cleaned = cleaned[:-len(s)]
     return cleaned
 
 def generate_ai_explanation(invoice_data: dict, rule_hits: list, shap_contribs: list, vendor_avg: float) -> str:
@@ -232,7 +232,7 @@ def process_invoice(db: Session, invoice_in: dict) -> Invoice:
     if dup_num or dup_details:
         rule_hits.append({
             "rule_name": "Duplicate Check",
-            "weight": 45.0,
+            "weight": 80.0,
             "description": "Invoice number or Vendor + Amount + Date combination already exists."
         })
         
@@ -241,7 +241,7 @@ def process_invoice(db: Session, invoice_in: dict) -> Invoice:
     if amount > 5000.0 and not invoice_in.get("po_number"):
         rule_hits.append({
             "rule_name": "PO Mismatch",
-            "weight": 25.0,
+            "weight": 30.0,
             "description": f"Invoice amount (${amount:,.2f}) exceeds $5,000 limit, but PO number is missing."
         })
         
@@ -250,7 +250,7 @@ def process_invoice(db: Session, invoice_in: dict) -> Invoice:
     if (9500.0 <= amount < 10000.0) or (4750.0 <= amount < 5000.0):
         rule_hits.append({
             "rule_name": "Threshold Check",
-            "weight": 30.0,
+            "weight": 40.0,
             "description": f"Invoice amount (${amount:,.2f}) is close to approval thresholds ($5,000 or $10,000)."
         })
         
@@ -259,7 +259,7 @@ def process_invoice(db: Session, invoice_in: dict) -> Invoice:
     if not vendor_db:
         rule_hits.append({
             "rule_name": "Ghost Vendor",
-            "weight": 50.0,
+            "weight": 80.0,
             "description": f"Vendor '{v_name}' was not found in the vendor master register."
         })
 

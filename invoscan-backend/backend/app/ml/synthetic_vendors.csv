@@ -1,101 +1,101 @@
 vendor_id,name,canonical_name,onboarding_date,historical_transaction_count,average_invoice_value,tax_id,bank_account,address,contact_email
-VEND001,TechNova Solutions,technova solutions,2022-09-29,55,1607.8,TX-237235-C,GB92BARC41456968,"333 Business Park, Suite 49, London",billing@technovasolutio.com
-VEND002,Apex Logistics,apex logistics,2024-08-16,14,9230.36,TX-109767-B,GB89BARC69034122,"85 Business Park, Suite 35, London",billing@apexlogistics.com
-VEND003,Globex Office,globex office,2022-08-07,69,4150.24,TX-378082-A,GB54BARC17213241,"388 Business Park, Suite 19, London",billing@globexoffice.com
-VEND004,Omni Marketing,omni marketing,2022-06-11,61,2938.83,TX-974244-C,GB48BARC74139093,"551 Business Park, Suite 1, London",billing@omnimarketing.com
-VEND005,Quantum Consulting,quantum consulting,2023-11-15,109,708.87,TX-681542-B,GB94BARC20861827,"280 Business Park, Suite 8, London",billing@quantumconsulti.com
-VEND006,Vanguard Security,vanguard security,2024-06-30,18,708.79,TX-878480-C,GB29BARC38557746,"629 Business Park, Suite 14, London",billing@vanguardsecurit.com
-VEND007,Summit Facilities,summit facilities,2024-01-05,48,379.52,TX-313487-C,GB91BARC99434343,"527 Business Park, Suite 32, London",billing@summitfacilitie.com
-VEND008,Pinnacle Catering,pinnacle catering,2022-09-15,120,6233.69,TX-987204-A,GB21BARC76509564,"859 Business Park, Suite 18, London",billing@pinnaclecaterin.com
-VEND009,BlueSky IT,bluesky it,2022-02-15,5,2957.25,TX-449759-A,GB91BARC37468030,"769 Business Park, Suite 29, London",billing@blueskyit.com
-VEND010,Starlight Media,starlight media,2023-07-19,95,3893.75,TX-548462-C,GB11BARC21730819,"977 Business Park, Suite 45, London",billing@starlightmedia.com
-VEND011,Alpha Partners,alpha partners,2024-07-14,24,262.4,TX-672092-A,GB57BARC71080580,"161 Business Park, Suite 28, London",billing@alphapartners.com
-VEND012,Delta Freight,delta freight,2022-05-11,10,10710.67,TX-423232-B,GB15BARC47519036,"708 Business Park, Suite 16, London",billing@deltafreight.com
-VEND013,Prime Supplies,prime supplies,2023-11-14,18,5559.29,TX-470858-C,GB62BARC75081029,"957 Business Park, Suite 16, London",billing@primesupplies.com
-VEND014,Core Tech,core tech,2024-06-04,25,916.06,TX-938742-A,GB62BARC12599032,"764 Business Park, Suite 22, London",billing@coretech.com
-VEND015,Nova Group,nova group,2024-03-12,57,802.04,TX-941204-C,GB41BARC37976630,"816 Business Park, Suite 45, London",billing@novagroup.com
-VEND016,Axis Energy,axis energy,2022-04-21,53,807.83,TX-140605-B,GB38BARC30926768,"368 Business Park, Suite 20, London",billing@axisenergy.com
-VEND017,Helix Labs,helix labs,2024-04-20,106,1288.26,TX-338651-A,GB13BARC79209434,"418 Business Park, Suite 22, London",billing@helixlabs.com
-VEND018,Zenith Printing,zenith printing,2022-10-13,115,2431.78,TX-172792-B,GB54BARC77264275,"419 Business Park, Suite 44, London",billing@zenithprinting.com
-VEND019,Matrix Corp,matrix corp,2024-05-13,73,1896.61,TX-447235-A,GB24BARC37390332,"604 Business Park, Suite 17, London",billing@matrixcorp.com
-VEND020,Atlas Steel,atlas steel,2022-02-09,18,1232.67,TX-725550-B,GB54BARC86393450,"456 Business Park, Suite 39, London",billing@atlassteel.com
-VEND021,Pioneer Enterprises Pvt. Ltd.,pioneer enterprises pvt ltd,2023-06-08,19,3039.11,TX-503906-C,GB34BARC36709515,"735 Business Park, Suite 28, London",billing@pioneerenterpri.com
-VEND022,NextGen Services Inc.,nextgen services inc,2022-01-02,71,650.7,TX-945687-C,GB97BARC85437795,"211 Business Park, Suite 24, London",billing@nextgenservices.com
-VEND023,Pioneer Industries Corp.,pioneer industries corp,2023-03-18,13,1236.55,TX-796503-B,GB89BARC42916494,"878 Business Park, Suite 8, London",billing@pioneerindustri.com
-VEND024,Summit Enterprises LLC,summit enterprises llc,2024-01-08,120,1568.83,TX-414910-C,GB49BARC79928762,"344 Business Park, Suite 26, London",billing@summitenterpris.com
-VEND025,NextGen Services LLC,nextgen services llc,2023-12-15,42,2026.8,TX-681343-A,GB34BARC54086995,"972 Business Park, Suite 25, London",billing@nextgenservices.com
-VEND026,Sterling Services Corp.,sterling services corp,2023-11-25,100,4813.81,TX-282480-C,GB82BARC41556861,"571 Business Park, Suite 1, London",billing@sterlingservice.com
-VEND027,NextGen Ventures Pvt. Ltd.,nextgen ventures pvt ltd,2022-11-08,41,868.21,TX-320392-B,GB84BARC73613093,"339 Business Park, Suite 30, London",billing@nextgenventures.com
-VEND028,Summit Group Corp.,summit group corp,2023-03-29,61,2366.09,TX-808446-A,GB75BARC59617131,"684 Business Park, Suite 6, London",billing@summitgroupcorp.com
-VEND029,Apex Systems Inc.,apex systems inc,2022-10-18,70,2892.51,TX-796101-C,GB89BARC45147021,"848 Business Park, Suite 49, London",billing@apexsystemsinc.com
-VEND030,NextGen Technologies LLC,nextgen technologies llc,2022-08-29,91,342.69,TX-425498-A,GB35BARC25451113,"57 Business Park, Suite 16, London",billing@nextgentechnolo.com
-VEND031,Pioneer Logistics LLC,pioneer logistics llc,2023-05-02,83,3006.0,TX-991014-A,GB68BARC53457290,"599 Business Park, Suite 13, London",billing@pioneerlogistic.com
-VEND032,Apex Technologies Pvt. Ltd.,apex technologies pvt ltd,2024-01-06,94,760.88,TX-502630-B,GB61BARC35583628,"681 Business Park, Suite 45, London",billing@apextechnologie.com
-VEND033,Summit Ventures LLC,summit ventures llc,2022-01-06,119,401.79,TX-887443-A,GB64BARC32947132,"833 Business Park, Suite 45, London",billing@summitventuresl.com
-VEND034,Elite Industries Pvt. Ltd.,elite industries pvt ltd,2023-06-15,64,9121.06,TX-152657-C,GB41BARC98954525,"477 Business Park, Suite 9, London",billing@eliteindustries.com
-VEND035,Velocity Technologies Inc.,velocity technologies inc,2024-03-31,64,10311.89,TX-800005-C,GB81BARC72437750,"982 Business Park, Suite 49, London",billing@velocitytechnol.com
-VEND036,Pioneer Enterprises Inc.,pioneer enterprises inc,2024-07-01,61,5156.99,TX-742412-C,GB74BARC54747080,"466 Business Park, Suite 11, London",billing@pioneerenterpri.com
-VEND037,Integra Industries Inc.,integra industries inc,2024-02-01,115,1289.86,TX-597732-B,GB43BARC88829541,"870 Business Park, Suite 41, London",billing@integraindustri.com
-VEND038,Pioneer Logistics Pvt. Ltd.,pioneer logistics pvt ltd,2022-10-11,103,508.33,TX-915451-C,GB72BARC75719340,"291 Business Park, Suite 29, London",billing@pioneerlogistic.com
-VEND039,Horizon Technologies Inc.,horizon technologies inc,2022-03-21,96,3658.25,TX-399607-A,GB44BARC45216150,"924 Business Park, Suite 35, London",billing@horizontechnolo.com
-VEND040,Apex Technologies Inc.,apex technologies inc,2022-03-24,22,1940.27,TX-258157-A,GB59BARC82765929,"733 Business Park, Suite 14, London",billing@apextechnologie.com
-VEND041,Sterling Services Inc.,sterling services inc,2022-03-07,58,590.46,TX-527398-B,GB79BARC58855763,"73 Business Park, Suite 14, London",billing@sterlingservice.com
-VEND042,Horizon Logistics Pvt. Ltd.,horizon logistics pvt ltd,2024-05-02,58,2250.64,TX-508396-C,GB99BARC12048083,"399 Business Park, Suite 31, London",billing@horizonlogistic.com
-VEND043,Sterling Services Pvt. Ltd.,sterling services pvt ltd,2022-01-07,50,304.98,TX-413118-B,GB63BARC66436579,"829 Business Park, Suite 39, London",billing@sterlingservice.com
-VEND044,Summit Services LLC,summit services llc,2024-07-08,33,7401.27,TX-611945-A,GB44BARC55700772,"39 Business Park, Suite 25, London",billing@summitservicesl.com
-VEND045,Apex Logistics Pvt. Ltd.,apex logistics pvt ltd,2022-12-11,90,1098.37,TX-812131-B,GB31BARC98133469,"951 Business Park, Suite 9, London",billing@apexlogisticspv.com
-VEND046,Pioneer Services Pvt. Ltd.,pioneer services pvt ltd,2023-09-30,73,3458.77,TX-128276-B,GB85BARC69180794,"37 Business Park, Suite 6, London",billing@pioneerservices.com
-VEND047,NextGen Ventures Corp.,nextgen ventures corp,2023-10-21,59,1320.64,TX-242291-B,GB33BARC15272743,"398 Business Park, Suite 21, London",billing@nextgenventures.com
-VEND048,Horizon Group Pvt. Ltd.,horizon group pvt ltd,2022-08-05,63,2402.33,TX-442722-B,GB58BARC39177363,"268 Business Park, Suite 6, London",billing@horizongrouppvt.com
-VEND049,Global Services Pvt. Ltd.,global services pvt ltd,2023-04-27,7,2573.67,TX-885408-C,GB16BARC46696038,"675 Business Park, Suite 5, London",billing@globalservicesp.com
-VEND050,Velocity Logistics Corp.,velocity logistics corp,2024-03-10,88,813.17,TX-142213-A,GB41BARC30904412,"646 Business Park, Suite 10, London",billing@velocitylogisti.com
-VEND051,Apex Services Inc.,apex services inc,2022-09-02,21,10678.42,TX-596564-C,GB24BARC69136437,"486 Business Park, Suite 45, London",billing@apexservicesinc.com
-VEND052,Sterling Ventures LLC,sterling ventures llc,2022-09-20,103,4676.74,TX-486814-A,GB87BARC73674524,"806 Business Park, Suite 11, London",billing@sterlingventure.com
-VEND053,Summit Industries Inc.,summit industries inc,2024-09-14,44,8615.28,TX-213349-C,GB13BARC42711083,"703 Business Park, Suite 25, London",billing@summitindustrie.com
-VEND054,Global Logistics LLC,global logistics llc,2023-02-11,96,6956.46,TX-307963-A,GB85BARC82416190,"258 Business Park, Suite 7, London",billing@globallogistics.com
-VEND055,Elite Logistics Corp.,elite logistics corp,2023-12-15,103,2933.16,TX-416232-C,GB86BARC94465725,"825 Business Park, Suite 37, London",billing@elitelogisticsc.com
-VEND056,Sterling Systems LLC,sterling systems llc,2024-03-12,10,7848.31,TX-464069-C,GB64BARC79365557,"80 Business Park, Suite 33, London",billing@sterlingsystems.com
-VEND057,Pioneer Systems Pvt. Ltd.,pioneer systems pvt ltd,2023-10-26,48,477.97,TX-113266-B,GB72BARC21066565,"993 Business Park, Suite 24, London",billing@pioneersystemsp.com
-VEND058,Pioneer Systems Corp.,pioneer systems corp,2023-10-13,119,854.4,TX-968962-B,GB29BARC55664132,"761 Business Park, Suite 34, London",billing@pioneersystemsc.com
-VEND059,Global Ventures LLC,global ventures llc,2024-09-15,88,338.85,TX-383201-C,GB78BARC91227071,"486 Business Park, Suite 28, London",billing@globalventuresl.com
-VEND060,Integra Group LLC,integra group llc,2024-04-25,98,1380.6,TX-721254-B,GB51BARC99308541,"860 Business Park, Suite 6, London",billing@integragroupllc.com
-VEND061,Integra Services Inc.,integra services inc,2022-10-13,117,1676.39,TX-572700-A,GB69BARC69753088,"694 Business Park, Suite 25, London",billing@integraservices.com
-VEND062,Apex Group LLC,apex group llc,2022-12-11,8,1149.68,TX-618317-B,GB33BARC61123337,"373 Business Park, Suite 17, London",billing@apexgroupllc.com
-VEND063,Velocity Technologies Corp.,velocity technologies corp,2022-12-15,40,5493.67,TX-725113-C,GB45BARC68278911,"539 Business Park, Suite 13, London",billing@velocitytechnol.com
-VEND064,Summit Industries Pvt. Ltd.,summit industries pvt ltd,2022-03-29,35,1523.68,TX-855053-B,GB72BARC68214440,"717 Business Park, Suite 31, London",billing@summitindustrie.com
-VEND065,Integra Services LLC,integra services llc,2023-10-24,96,1189.41,TX-614663-B,GB12BARC19757347,"236 Business Park, Suite 26, London",billing@integraservices.com
-VEND066,NextGen Industries LLC,nextgen industries llc,2023-12-10,36,2547.22,TX-421080-C,GB84BARC48694570,"576 Business Park, Suite 34, London",billing@nextgenindustri.com
-VEND067,Horizon Industries Inc.,horizon industries inc,2022-12-19,59,655.69,TX-882169-C,GB52BARC46890099,"474 Business Park, Suite 18, London",billing@horizonindustri.com
-VEND068,Global Ventures Inc.,global ventures inc,2022-11-10,37,5061.45,TX-341736-A,GB34BARC43087625,"770 Business Park, Suite 35, London",billing@globalventuresi.com
-VEND069,Integra Logistics Inc.,integra logistics inc,2024-08-31,102,432.43,TX-823688-A,GB34BARC32689571,"293 Business Park, Suite 47, London",billing@integralogistic.com
-VEND070,Elite Technologies Corp.,elite technologies corp,2023-08-27,102,13202.44,TX-650121-C,GB46BARC20540934,"313 Business Park, Suite 15, London",billing@elitetechnologi.com
-VEND071,Apex Enterprises Inc.,apex enterprises inc,2023-01-05,27,4638.45,TX-416950-A,GB78BARC23273145,"56 Business Park, Suite 4, London",billing@apexenterprises.com
-VEND072,Velocity Services LLC,velocity services llc,2023-07-21,42,864.62,TX-831295-A,GB91BARC88935972,"115 Business Park, Suite 1, London",billing@velocityservice.com
-VEND073,Horizon Services Inc.,horizon services inc,2023-08-11,41,216.61,TX-592198-B,GB66BARC45725633,"998 Business Park, Suite 4, London",billing@horizonservices.com
-VEND074,Velocity Ventures Inc.,velocity ventures inc,2022-09-16,115,5269.69,TX-600935-A,GB18BARC52017272,"85 Business Park, Suite 37, London",billing@velocityventure.com
-VEND075,Horizon Logistics Inc.,horizon logistics inc,2023-10-07,92,3881.29,TX-156213-A,GB29BARC95054482,"981 Business Park, Suite 20, London",billing@horizonlogistic.com
-VEND076,Apex Logistics Corp.,apex logistics corp,2022-03-29,36,4116.99,TX-224205-C,GB63BARC73577086,"819 Business Park, Suite 40, London",billing@apexlogisticsco.com
-VEND077,Horizon Enterprises LLC,horizon enterprises llc,2022-08-20,104,4625.64,TX-647957-B,GB67BARC56422648,"890 Business Park, Suite 38, London",billing@horizonenterpri.com
-VEND078,Summit Logistics Pvt. Ltd.,summit logistics pvt ltd,2023-03-16,44,430.79,TX-696251-C,GB17BARC73924422,"980 Business Park, Suite 49, London",billing@summitlogistics.com
-VEND079,Pioneer Services Inc.,pioneer services inc,2022-08-01,85,1531.68,TX-321275-B,GB94BARC18513130,"255 Business Park, Suite 12, London",billing@pioneerservices.com
-VEND080,NextGen Ventures Inc.,nextgen ventures inc,2023-07-20,14,569.45,TX-264136-A,GB62BARC57238798,"618 Business Park, Suite 31, London",billing@nextgenventures.com
-VEND081,Elite Group Pvt. Ltd.,elite group pvt ltd,2022-10-26,9,6165.59,TX-342720-B,GB46BARC83713568,"82 Business Park, Suite 44, London",billing@elitegrouppvtlt.com
-VEND082,Horizon Services LLC,horizon services llc,2022-08-28,38,3128.9,TX-926097-C,GB85BARC79330035,"445 Business Park, Suite 8, London",billing@horizonservices.com
-VEND083,Horizon Industries LLC,horizon industries llc,2023-07-12,33,1405.46,TX-779094-A,GB44BARC96678528,"83 Business Park, Suite 4, London",billing@horizonindustri.com
-VEND084,Sterling Enterprises LLC,sterling enterprises llc,2022-06-19,106,397.0,TX-422554-C,GB82BARC40263066,"137 Business Park, Suite 30, London",billing@sterlingenterpr.com
-VEND085,NextGen Group Corp.,nextgen group corp,2023-12-07,43,1317.47,TX-833723-B,GB44BARC62478379,"515 Business Park, Suite 29, London",billing@nextgengroupcor.com
-VEND086,Horizon Ventures Inc.,horizon ventures inc,2022-03-24,81,1379.94,TX-141797-B,GB51BARC73303942,"36 Business Park, Suite 6, London",billing@horizonventures.com
-VEND087,Elite Enterprises Inc.,elite enterprises inc,2022-08-23,91,4123.63,TX-976566-C,GB85BARC12175396,"851 Business Park, Suite 18, London",billing@eliteenterprise.com
-VEND088,Elite Enterprises Corp.,elite enterprises corp,2023-08-14,10,3244.67,TX-900177-A,GB70BARC64417393,"462 Business Park, Suite 18, London",billing@eliteenterprise.com
-VEND089,Integra Ventures Pvt. Ltd.,integra ventures pvt ltd,2022-07-05,79,6746.76,TX-557058-C,GB72BARC19567470,"366 Business Park, Suite 27, London",billing@integraventures.com
-VEND090,Elite Ventures Inc.,elite ventures inc,2022-12-08,46,2117.2,TX-802685-A,GB30BARC44582462,"720 Business Park, Suite 32, London",billing@eliteventuresin.com
-VEND091,NextGen Systems Inc.,nextgen systems inc,2022-10-23,89,582.12,TX-519904-C,GB14BARC57691921,"332 Business Park, Suite 17, London",billing@nextgensystemsi.com
-VEND092,Summit Enterprises Pvt. Ltd.,summit enterprises pvt ltd,2022-11-28,19,3947.38,TX-910075-B,GB75BARC96499810,"683 Business Park, Suite 35, London",billing@summitenterpris.com
-VEND093,Summit Enterprises Corp.,summit enterprises corp,2023-04-19,57,4491.18,TX-156837-A,GB76BARC47935389,"784 Business Park, Suite 32, London",billing@summitenterpris.com
-VEND094,Sterling Group LLC,sterling group llc,2023-10-03,61,2671.66,TX-896907-A,GB36BARC38002880,"144 Business Park, Suite 19, London",billing@sterlinggroupll.com
-VEND095,Sterling Industries Inc.,sterling industries inc,2023-03-25,117,4621.67,TX-832168-B,GB25BARC13027190,"633 Business Park, Suite 16, London",billing@sterlingindustr.com
-VEND096,Pioneer Industries Inc.,pioneer industries inc,2023-12-28,25,2242.44,TX-425845-C,GB11BARC67907762,"105 Business Park, Suite 15, London",billing@pioneerindustri.com
-VEND097,Elite Industries Inc.,elite industries inc,2024-05-11,19,2419.04,TX-583863-A,GB92BARC97256529,"520 Business Park, Suite 46, London",billing@eliteindustries.com
-VEND098,Velocity Enterprises LLC,velocity enterprises llc,2022-10-26,70,1873.44,TX-839677-B,GB63BARC97527171,"493 Business Park, Suite 16, London",billing@velocityenterpr.com
-VEND099,Elite Technologies Pvt. Ltd.,elite technologies pvt ltd,2023-04-13,75,277.24,TX-251668-B,GB34BARC72849275,"774 Business Park, Suite 9, London",billing@elitetechnologi.com
-VEND100,NextGen Technologies Inc.,nextgen technologies inc,2024-06-03,13,542.5,TX-389666-B,GB53BARC92598174,"283 Business Park, Suite 1, London",billing@nextgentechnolo.com
+VEND001,TechNova Solutions,technova,2022-02-28,11,1607.8,TX-712554-B,GB74BARC99414177,"171 Business Park, Suite 4, London",billing@technova.com
+VEND002,Apex Logistics,apexlogistics,2024-09-10,70,9230.36,TX-184002-A,GB18BARC72393918,"701 Business Park, Suite 16, London",billing@apexlogistics.com
+VEND003,Globex Office,globexoffice,2023-02-18,20,4150.24,TX-697347-A,GB84BARC72339815,"644 Business Park, Suite 6, London",billing@globexoffice.com
+VEND004,Omni Marketing,omnimarketing,2023-03-06,89,2938.83,TX-712024-C,GB76BARC43173743,"219 Business Park, Suite 43, London",billing@omnimarketing.com
+VEND005,Quantum Consulting,quantumconsulting,2024-01-04,45,708.87,TX-350280-B,GB60BARC23723595,"670 Business Park, Suite 20, London",billing@quantumconsulti.com
+VEND006,Vanguard Security,vanguardsecurity,2023-04-14,45,708.79,TX-888387-A,GB11BARC58054789,"586 Business Park, Suite 7, London",billing@vanguardsecurit.com
+VEND007,Summit Facilities,summitfacilities,2022-03-17,73,379.52,TX-323508-C,GB43BARC23889054,"912 Business Park, Suite 5, London",billing@summitfacilitie.com
+VEND008,Pinnacle Catering,pinnaclecatering,2024-06-19,36,6233.69,TX-487477-B,GB30BARC55946979,"730 Business Park, Suite 20, London",billing@pinnaclecaterin.com
+VEND009,BlueSky IT,blueskyit,2023-09-19,108,2957.25,TX-785743-C,GB11BARC80030580,"316 Business Park, Suite 43, London",billing@blueskyit.com
+VEND010,Starlight Media,starlightmedia,2022-04-17,117,3893.75,TX-240814-B,GB24BARC21223580,"169 Business Park, Suite 18, London",billing@starlightmedia.com
+VEND011,Alpha Partners,alphapartners,2022-10-16,82,262.4,TX-320861-C,GB53BARC31348797,"659 Business Park, Suite 17, London",billing@alphapartners.com
+VEND012,Delta Freight,deltafreight,2023-06-02,67,10710.67,TX-363319-A,GB21BARC76509564,"859 Business Park, Suite 18, London",billing@deltafreight.com
+VEND013,Prime Supplies,primesupplies,2022-02-15,5,5559.29,TX-449759-A,GB91BARC37468030,"769 Business Park, Suite 29, London",billing@primesupplies.com
+VEND014,Core Tech,coretech,2023-07-19,95,916.06,TX-548462-C,GB11BARC21730819,"977 Business Park, Suite 45, London",billing@coretech.com
+VEND015,Nova Group,nova,2024-07-14,24,802.04,TX-672092-A,GB57BARC71080580,"161 Business Park, Suite 28, London",billing@nova.com
+VEND016,Axis Energy,axisenergy,2022-05-11,10,807.83,TX-423232-B,GB15BARC47519036,"708 Business Park, Suite 16, London",billing@axisenergy.com
+VEND017,Helix Labs,helixlabs,2023-11-14,18,1288.26,TX-470858-C,GB62BARC75081029,"957 Business Park, Suite 16, London",billing@helixlabs.com
+VEND018,Zenith Printing,zenithprinting,2024-06-04,25,2431.78,TX-938742-A,GB62BARC12599032,"764 Business Park, Suite 22, London",billing@zenithprinting.com
+VEND019,Matrix Corp,matrix,2024-03-12,57,1896.61,TX-941204-C,GB41BARC37976630,"816 Business Park, Suite 45, London",billing@matrix.com
+VEND020,Atlas Steel,atlassteel,2022-04-21,53,1232.67,TX-140605-B,GB38BARC30926768,"368 Business Park, Suite 20, London",billing@atlassteel.com
+VEND021,Pioneer1 Enterprises Pvt. Ltd.,pioneer1enterprises,2024-04-20,106,3039.11,TX-338651-A,GB13BARC79209434,"418 Business Park, Suite 22, London",billing@pioneer1enterpr.com
+VEND022,NextGen2 Services Inc.,nextgen2,2022-10-13,115,650.7,TX-172792-B,GB54BARC77264275,"419 Business Park, Suite 44, London",billing@nextgen2.com
+VEND023,Pioneer3 Industries Corp.,pioneer3industries,2024-05-13,73,1236.55,TX-447235-A,GB24BARC37390332,"604 Business Park, Suite 17, London",billing@pioneer3industr.com
+VEND024,Summit4 Enterprises LLC,summit4enterprises,2022-02-09,18,1568.83,TX-725550-B,GB54BARC86393450,"456 Business Park, Suite 39, London",billing@summit4enterpri.com
+VEND025,NextGen5 Services LLC,nextgen5,2023-06-08,19,2026.8,TX-503906-C,GB34BARC36709515,"735 Business Park, Suite 28, London",billing@nextgen5.com
+VEND026,Sterling6 Services Corp.,sterling6,2022-01-02,71,4813.81,TX-945687-C,GB97BARC85437795,"211 Business Park, Suite 24, London",billing@sterling6.com
+VEND027,NextGen7 Ventures Pvt. Ltd.,nextgen7ventures,2023-03-18,13,868.21,TX-796503-B,GB89BARC42916494,"878 Business Park, Suite 8, London",billing@nextgen7venture.com
+VEND028,Summit8 Group Corp.,summit8,2024-01-08,120,2366.09,TX-414910-C,GB49BARC79928762,"344 Business Park, Suite 26, London",billing@summit8.com
+VEND029,Apex9 Systems Inc.,apex9systems,2023-12-15,42,2892.51,TX-681343-A,GB34BARC54086995,"972 Business Park, Suite 25, London",billing@apex9systems.com
+VEND030,NextGen10 Technologies LLC,nextgen10,2023-11-25,100,342.69,TX-282480-C,GB82BARC41556861,"571 Business Park, Suite 1, London",billing@nextgen10.com
+VEND031,Pioneer11 Logistics LLC,pioneer11logistics,2022-11-08,41,3006.0,TX-320392-B,GB84BARC73613093,"339 Business Park, Suite 30, London",billing@pioneer11logist.com
+VEND032,Apex12 Technologies Pvt. Ltd.,apex12,2023-03-29,61,760.88,TX-808446-A,GB75BARC59617131,"684 Business Park, Suite 6, London",billing@apex12.com
+VEND033,Summit13 Ventures LLC,summit13ventures,2022-10-18,70,401.79,TX-796101-C,GB89BARC45147021,"848 Business Park, Suite 49, London",billing@summit13venture.com
+VEND034,Elite14 Industries Pvt. Ltd.,elite14industries,2022-08-29,91,9121.06,TX-425498-A,GB35BARC25451113,"57 Business Park, Suite 16, London",billing@elite14industri.com
+VEND035,Velocity15 Technologies Inc.,velocity15,2023-05-02,83,10311.89,TX-991014-A,GB68BARC53457290,"599 Business Park, Suite 13, London",billing@velocity15.com
+VEND036,Pioneer16 Enterprises Inc.,pioneer16enterprises,2024-01-06,94,5156.99,TX-502630-B,GB61BARC35583628,"681 Business Park, Suite 45, London",billing@pioneer16enterp.com
+VEND037,Integra17 Industries Inc.,integra17industries,2022-01-06,119,1289.86,TX-887443-A,GB64BARC32947132,"833 Business Park, Suite 45, London",billing@integra17indust.com
+VEND038,Pioneer18 Logistics Pvt. Ltd.,pioneer18logistics,2023-06-15,64,508.33,TX-152657-C,GB41BARC98954525,"477 Business Park, Suite 9, London",billing@pioneer18logist.com
+VEND039,Horizon19 Technologies Inc.,horizon19,2024-03-31,64,3658.25,TX-800005-C,GB81BARC72437750,"982 Business Park, Suite 49, London",billing@horizon19.com
+VEND040,Apex20 Technologies Inc.,apex20,2024-07-01,61,1940.27,TX-742412-C,GB74BARC54747080,"466 Business Park, Suite 11, London",billing@apex20.com
+VEND041,Integra21 Industries Inc.,integra21industries,2024-02-01,115,590.46,TX-597732-B,GB43BARC88829541,"870 Business Park, Suite 41, London",billing@integra21indust.com
+VEND042,Sterling22 Services Inc.,sterling22,2022-10-11,103,2250.64,TX-915451-C,GB72BARC75719340,"291 Business Park, Suite 29, London",billing@sterling22.com
+VEND043,Horizon23 Logistics Pvt. Ltd.,horizon23logistics,2022-03-21,96,304.98,TX-399607-A,GB44BARC45216150,"924 Business Park, Suite 35, London",billing@horizon23logist.com
+VEND044,Sterling24 Services Pvt. Ltd.,sterling24,2022-03-24,22,7401.27,TX-258157-A,GB59BARC82765929,"733 Business Park, Suite 14, London",billing@sterling24.com
+VEND045,Summit25 Services LLC,summit25,2022-03-07,58,1098.37,TX-527398-B,GB79BARC58855763,"73 Business Park, Suite 14, London",billing@summit25.com
+VEND046,Apex26 Logistics Pvt. Ltd.,apex26logistics,2024-05-02,58,3458.77,TX-508396-C,GB99BARC12048083,"399 Business Park, Suite 31, London",billing@apex26logistics.com
+VEND047,Pioneer27 Services Pvt. Ltd.,pioneer27,2022-01-07,50,1320.64,TX-413118-B,GB63BARC66436579,"829 Business Park, Suite 39, London",billing@pioneer27.com
+VEND048,NextGen28 Ventures Corp.,nextgen28ventures,2024-07-08,33,2402.33,TX-611945-A,GB44BARC55700772,"39 Business Park, Suite 25, London",billing@nextgen28ventur.com
+VEND049,Horizon29 Group Pvt. Ltd.,horizon29,2022-12-11,90,2573.67,TX-812131-B,GB31BARC98133469,"951 Business Park, Suite 9, London",billing@horizon29.com
+VEND050,Global30 Services Pvt. Ltd.,global30,2023-09-30,73,813.17,TX-128276-B,GB85BARC69180794,"37 Business Park, Suite 6, London",billing@global30.com
+VEND051,Velocity31 Logistics Corp.,velocity31logistics,2023-10-21,59,10678.42,TX-242291-B,GB33BARC15272743,"398 Business Park, Suite 21, London",billing@velocity31logis.com
+VEND052,Apex32 Services Inc.,apex32,2022-08-05,63,4676.74,TX-442722-B,GB58BARC39177363,"268 Business Park, Suite 6, London",billing@apex32.com
+VEND053,Sterling33 Ventures LLC,sterling33ventures,2023-04-27,7,8615.28,TX-885408-C,GB16BARC46696038,"675 Business Park, Suite 5, London",billing@sterling33ventu.com
+VEND054,Summit34 Industries Inc.,summit34industries,2024-03-10,88,6956.46,TX-142213-A,GB41BARC30904412,"646 Business Park, Suite 10, London",billing@summit34industr.com
+VEND055,Global35 Logistics LLC,global35logistics,2022-09-02,21,2933.16,TX-596564-C,GB24BARC69136437,"486 Business Park, Suite 45, London",billing@global35logisti.com
+VEND056,Elite36 Logistics Corp.,elite36logistics,2022-09-20,103,7848.31,TX-486814-A,GB87BARC73674524,"806 Business Park, Suite 11, London",billing@elite36logistic.com
+VEND057,Sterling37 Systems LLC,sterling37systems,2024-09-14,44,477.97,TX-213349-C,GB13BARC42711083,"703 Business Park, Suite 25, London",billing@sterling37syste.com
+VEND058,Pioneer38 Systems Pvt. Ltd.,pioneer38systems,2023-02-11,96,854.4,TX-307963-A,GB85BARC82416190,"258 Business Park, Suite 7, London",billing@pioneer38system.com
+VEND059,Pioneer39 Systems Corp.,pioneer39systems,2023-12-15,103,338.85,TX-416232-C,GB86BARC94465725,"825 Business Park, Suite 37, London",billing@pioneer39system.com
+VEND060,Global40 Ventures LLC,global40ventures,2024-03-12,10,1380.6,TX-464069-C,GB64BARC79365557,"80 Business Park, Suite 33, London",billing@global40venture.com
+VEND061,Integra41 Group LLC,integra41,2023-10-26,48,1676.39,TX-113266-B,GB72BARC21066565,"993 Business Park, Suite 24, London",billing@integra41.com
+VEND062,Integra42 Services Inc.,integra42,2023-10-13,119,1149.68,TX-968962-B,GB29BARC55664132,"761 Business Park, Suite 34, London",billing@integra42.com
+VEND063,Apex43 Group LLC,apex43,2024-09-15,88,5493.67,TX-383201-C,GB78BARC91227071,"486 Business Park, Suite 28, London",billing@apex43.com
+VEND064,Velocity44 Technologies Corp.,velocity44,2024-04-25,98,1523.68,TX-721254-B,GB51BARC99308541,"860 Business Park, Suite 6, London",billing@velocity44.com
+VEND065,Summit45 Industries Pvt. Ltd.,summit45industries,2022-10-13,117,1189.41,TX-572700-A,GB69BARC69753088,"694 Business Park, Suite 25, London",billing@summit45industr.com
+VEND066,Integra46 Services LLC,integra46,2022-12-11,8,2547.22,TX-618317-B,GB33BARC61123337,"373 Business Park, Suite 17, London",billing@integra46.com
+VEND067,NextGen47 Industries LLC,nextgen47industries,2022-12-15,40,655.69,TX-725113-C,GB45BARC68278911,"539 Business Park, Suite 13, London",billing@nextgen47indust.com
+VEND068,Horizon48 Industries Inc.,horizon48industries,2022-03-29,35,5061.45,TX-855053-B,GB72BARC68214440,"717 Business Park, Suite 31, London",billing@horizon48indust.com
+VEND069,Global49 Ventures Inc.,global49ventures,2023-10-24,96,432.43,TX-614663-B,GB12BARC19757347,"236 Business Park, Suite 26, London",billing@global49venture.com
+VEND070,Integra50 Logistics Inc.,integra50logistics,2023-12-10,36,13202.44,TX-421080-C,GB84BARC48694570,"576 Business Park, Suite 34, London",billing@integra50logist.com
+VEND071,Sterling51 Services Pvt. Ltd.,sterling51,2022-12-19,59,4638.45,TX-882169-C,GB52BARC46890099,"474 Business Park, Suite 18, London",billing@sterling51.com
+VEND072,Elite52 Technologies Corp.,elite52,2022-11-10,37,864.62,TX-341736-A,GB34BARC43087625,"770 Business Park, Suite 35, London",billing@elite52.com
+VEND073,Sterling53 Ventures LLC,sterling53ventures,2024-08-31,102,216.61,TX-823688-A,GB34BARC32689571,"293 Business Park, Suite 47, London",billing@sterling53ventu.com
+VEND074,NextGen54 Services LLC,nextgen54,2023-08-27,102,5269.69,TX-650121-C,GB46BARC20540934,"313 Business Park, Suite 15, London",billing@nextgen54.com
+VEND075,Apex55 Enterprises Inc.,apex55enterprises,2023-01-05,27,3881.29,TX-416950-A,GB78BARC23273145,"56 Business Park, Suite 4, London",billing@apex55enterpris.com
+VEND076,Velocity56 Services LLC,velocity56,2023-07-21,42,4116.99,TX-831295-A,GB91BARC88935972,"115 Business Park, Suite 1, London",billing@velocity56.com
+VEND077,Pioneer57 Enterprises Inc.,pioneer57enterprises,2023-08-11,41,4625.64,TX-592198-B,GB66BARC45725633,"998 Business Park, Suite 4, London",billing@pioneer57enterp.com
+VEND078,Pioneer58 Enterprises Pvt. Ltd.,pioneer58enterprises,2022-09-16,115,430.79,TX-600935-A,GB18BARC52017272,"85 Business Park, Suite 37, London",billing@pioneer58enterp.com
+VEND079,Pioneer59 Services Pvt. Ltd.,pioneer59,2023-10-07,92,1531.68,TX-156213-A,GB29BARC95054482,"981 Business Park, Suite 20, London",billing@pioneer59.com
+VEND080,Horizon60 Services Inc.,horizon60,2022-03-29,36,569.45,TX-224205-C,GB63BARC73577086,"819 Business Park, Suite 40, London",billing@horizon60.com
+VEND081,Velocity61 Ventures Inc.,velocity61ventures,2022-08-20,104,6165.59,TX-647957-B,GB67BARC56422648,"890 Business Park, Suite 38, London",billing@velocity61ventu.com
+VEND082,Horizon62 Logistics Inc.,horizon62logistics,2023-03-16,44,3128.9,TX-696251-C,GB17BARC73924422,"980 Business Park, Suite 49, London",billing@horizon62logist.com
+VEND083,Pioneer63 Industries Corp.,pioneer63industries,2022-08-01,85,1405.46,TX-321275-B,GB94BARC18513130,"255 Business Park, Suite 12, London",billing@pioneer63indust.com
+VEND084,Apex64 Logistics Corp.,apex64logistics,2023-07-20,14,397.0,TX-264136-A,GB62BARC57238798,"618 Business Park, Suite 31, London",billing@apex64logistics.com
+VEND085,Horizon65 Enterprises LLC,horizon65enterprises,2022-10-26,9,1317.47,TX-342720-B,GB46BARC83713568,"82 Business Park, Suite 44, London",billing@horizon65enterp.com
+VEND086,Summit66 Logistics Pvt. Ltd.,summit66logistics,2022-08-28,38,1379.94,TX-926097-C,GB85BARC79330035,"445 Business Park, Suite 8, London",billing@summit66logisti.com
+VEND087,Pioneer67 Services Inc.,pioneer67,2023-07-12,33,4123.63,TX-779094-A,GB44BARC96678528,"83 Business Park, Suite 4, London",billing@pioneer67.com
+VEND088,NextGen68 Ventures Inc.,nextgen68ventures,2022-06-19,106,3244.67,TX-422554-C,GB82BARC40263066,"137 Business Park, Suite 30, London",billing@nextgen68ventur.com
+VEND089,Elite69 Group Pvt. Ltd.,elite69,2023-12-07,43,6746.76,TX-833723-B,GB44BARC62478379,"515 Business Park, Suite 29, London",billing@elite69.com
+VEND090,Horizon70 Services LLC,horizon70,2022-03-24,81,2117.2,TX-141797-B,GB51BARC73303942,"36 Business Park, Suite 6, London",billing@horizon70.com
+VEND091,Horizon71 Industries LLC,horizon71industries,2022-08-23,91,582.12,TX-976566-C,GB85BARC12175396,"851 Business Park, Suite 18, London",billing@horizon71indust.com
+VEND092,Sterling72 Enterprises LLC,sterling72enterprises,2023-08-14,10,3947.38,TX-900177-A,GB70BARC64417393,"462 Business Park, Suite 18, London",billing@sterling72enter.com
+VEND093,NextGen73 Group Corp.,nextgen73,2022-07-05,79,4491.18,TX-557058-C,GB72BARC19567470,"366 Business Park, Suite 27, London",billing@nextgen73.com
+VEND094,Horizon74 Ventures Inc.,horizon74ventures,2022-12-08,46,2671.66,TX-802685-A,GB30BARC44582462,"720 Business Park, Suite 32, London",billing@horizon74ventur.com
+VEND095,Elite75 Enterprises Inc.,elite75enterprises,2022-10-23,89,4621.67,TX-519904-C,GB14BARC57691921,"332 Business Park, Suite 17, London",billing@elite75enterpri.com
+VEND096,Elite76 Enterprises Corp.,elite76enterprises,2022-11-28,19,2242.44,TX-910075-B,GB75BARC96499810,"683 Business Park, Suite 35, London",billing@elite76enterpri.com
+VEND097,Integra77 Ventures Pvt. Ltd.,integra77ventures,2023-04-19,57,2419.04,TX-156837-A,GB76BARC47935389,"784 Business Park, Suite 32, London",billing@integra77ventur.com
+VEND098,Elite78 Ventures Inc.,elite78ventures,2023-10-03,61,1873.44,TX-896907-A,GB36BARC38002880,"144 Business Park, Suite 19, London",billing@elite78ventures.com
+VEND099,NextGen79 Systems Inc.,nextgen79systems,2023-03-25,117,277.24,TX-832168-B,GB25BARC13027190,"633 Business Park, Suite 16, London",billing@nextgen79system.com
+VEND100,Summit80 Enterprises Pvt. Ltd.,summit80enterprises,2023-12-28,25,542.5,TX-425845-C,GB11BARC67907762,"105 Business Park, Suite 15, London",billing@summit80enterpr.com

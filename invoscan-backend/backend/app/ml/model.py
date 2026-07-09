@@ -147,6 +147,12 @@ def train_model():
     
     print(f"Dataset shape: {X.shape}")
     
+    # Calculate scale_pos_weight to handle dataset imbalance
+    num_neg = sum(y == 0)
+    num_pos = sum(y == 1)
+    scale_pos_weight = num_neg / num_pos if num_pos > 0 else 1.0
+    print(f"Applying scale_pos_weight: {scale_pos_weight:.2f}")
+    
     # Train XGBoost Model
     print("Training XGBoost Classifier...")
     model = xgb.XGBClassifier(
@@ -154,7 +160,8 @@ def train_model():
         max_depth=5,
         learning_rate=0.1,
         random_state=42,
-        eval_metric='logloss'
+        eval_metric='logloss',
+        scale_pos_weight=scale_pos_weight
     )
     model.fit(X, y)
     

@@ -23,13 +23,15 @@ def generate_synthetic_data(num_invoices=2000, num_vendors=100, save_dir=None):
     ]
     
     # Generate random business names to fill up to num_vendors
+    idx = 1
     while len(vendor_names) < num_vendors:
-        word1 = random.choice(["Summit", "Pioneer", "Global", "NextGen", "Integra", "Apex", "Elite", "Horizon", "Sterling", "Velocity"])
+        word1 = random.choice(["Summit", "Pioneer", "Global", "NextGen", "Integra", "Apex", "Elite", "Horizon", "Sterling", "Velocity"]) + str(idx)
         word2 = random.choice(["Enterprises", "Industries", "Group", "Services", "Systems", "Technologies", "Logistics", "Ventures"])
         suffix = random.choice(["LLC", "Inc.", "Pvt. Ltd.", "Corp."])
         name = f"{word1} {word2} {suffix}"
         if name not in vendor_names:
             vendor_names.append(name)
+            idx += 1
             
     vendors = []
     start_date = datetime(2022, 1, 1)
@@ -37,7 +39,14 @@ def generate_synthetic_data(num_invoices=2000, num_vendors=100, save_dir=None):
     for i in range(num_vendors):
         v_id = f"VEND{i+1:03d}"
         name = vendor_names[i]
-        canonical_name = name.lower().replace(".", "").replace(",", "").strip()
+        
+        cleaned = name.lower().replace(".", "").replace(",", "").replace("-", "").replace(" ", "").strip()
+        suffixes = ["pvtltd", "pvt", "ltd", "llc", "inc", "corp", "co", "incorporated", "limited", "group", "solutions", "technologies", "services"]
+        for s in suffixes:
+            if cleaned.endswith(s):
+                cleaned = cleaned[:-len(s)]
+        canonical_name = cleaned
+
         onboard_date = start_date + timedelta(days=random.randint(0, 1000))
         
         # Vendor characteristics
@@ -79,7 +88,11 @@ def generate_synthetic_data(num_invoices=2000, num_vendors=100, save_dir=None):
         v_avg = vendor["average_invoice_value"]
         
         # Calculate normal amount
-        amount = round(float(np.random.normal(loc=v_avg, scale=v_avg*0.25)), 2)
+        # 5% of legitimate invoices are naturally large (e.g., annual renewals, bulk orders)
+        if random.random() > 0.95:
+            amount = round(float(np.random.normal(loc=v_avg*4, scale=v_avg)), 2)
+        else:
+            amount = round(float(np.random.normal(loc=v_avg, scale=v_avg*0.25)), 2)
         amount = max(amount, 50.0) # Ensure positive and reasonable minimum
         
         inv_date = base_date + timedelta(days=random.randint(0, 180))
