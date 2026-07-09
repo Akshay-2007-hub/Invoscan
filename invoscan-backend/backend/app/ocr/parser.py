@@ -68,19 +68,18 @@ def extract_text_from_document(file_bytes, filename):
         # Standard clean invoice mock
         return f"""
         ====================================================
-        TECHNOVA SOLUTIONS
+        ACME CORP
         ====================================================
         Invoice ID: INV-{datetime.now().strftime("%S%f")[:6]}
         Date: {datetime.now().strftime("%Y-%m-%d")}
-        PO Reference: PO-998811
+        PO Reference: PO-112233
         
-        Bill To: Tech Horizon Enterprises
+        Bill To: Client Company
         
-        1. Cloud Hosting Services - June            $1,250.00
-        2. Database Scaling - Premium Support       $800.00
+        1. Standard Services            $1,000.00
         
-        TOTAL: $2,050.00
-        Tax Reg: TX-887711-A
+        TOTAL: $1,000.00
+        Tax Reg: TX-112233-B
         ====================================================
         """
 
