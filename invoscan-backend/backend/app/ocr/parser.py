@@ -13,75 +13,22 @@ def extract_text_from_document(file_bytes, filename):
         except Exception:
             pass
             
-    # Return simulated OCR output based on filename clues to show OCR in action
-    lowered_fn = filename.lower()
-    
-    if "duplicate" in lowered_fn:
-        return """
-        ====================================================
-        INVOICE - APEX LOGISTICS
-        ====================================================
-        Invoice Number: INV-887722
-        Date: 2025-04-12
-        PO Number: PO-445566
-        
-        To: Tech Horizon Enterprises
-        
-        Description:
-        Freight shipping services - Q1 Batch 2     $8,450.00
-        
-        TOTAL DUE: $8,450.00
-        Bank Details: GB55BARC22119933
-        ====================================================
-        """
-    elif "ghost" in lowered_fn or "unknown" in lowered_fn:
-        return """
-        ====================================================
-        FLY-BY-NIGHT CONSULTING SERVICES
-        ====================================================
-        Invoice No: INV-999111
-        Invoice Date: 2025-05-20
-        
-        Client: Tech Horizon Enterprises
-        
-        Consulting Hours (Strategy Alignment):      $35,000.00
-        
-        PLEASE PAY: $35,000.00
-        Wire Transfer: GB99WEST88776655 (No Tax ID Registered)
-        ====================================================
-        """
-    elif "incomplete" in lowered_fn or "missing" in lowered_fn:
-        return """
-        ====================================================
-        OFFICE EMPORIUM
-        ====================================================
-        Date: 2025-03-01
-        
-        Items:
-        - Box of Pens
-        - Paper reams
-        
-        (Incomplete invoice - amount missing from bottom tear)
-        ====================================================
-        """
-    else:
-        # Standard clean invoice mock
-        return f"""
-        ====================================================
-        ACME CORP
-        ====================================================
-        Invoice ID: INV-{datetime.now().strftime("%S%f")[:6]}
-        Date: {datetime.now().strftime("%Y-%m-%d")}
-        PO Reference: PO-112233
-        
-        Bill To: Client Company
-        
-        1. Standard Services            $1,000.00
-        
-        TOTAL: $1,000.00
-        Tax Reg: TX-112233-B
-        ====================================================
-        """
+    # Try extracting PDF text using PyMuPDF if it's a PDF
+    if filename.lower().endswith(".pdf"):
+        try:
+            import fitz
+            doc = fitz.open(stream=file_bytes, filetype="pdf")
+            text = ""
+            for page in doc:
+                text += page.get_text()
+            if text.strip():
+                return text
+        except Exception:
+            pass
+
+    # If it's an image or we fail, return what we can or indicate failure.
+    # The user strictly requested NO MOCK DATA.
+    return "Error: Could not extract text from the document. Please upload a searchable PDF or a Text file."
 
 def parse_structured_fields(raw_text):
     """

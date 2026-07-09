@@ -140,16 +140,22 @@ def process_invoice(db: Session, invoice_in: dict) -> Invoice:
         missing_fields.append("vendor_name")
     if not invoice_in.get("invoice_number"):
         missing_fields.append("invoice_number")
-    if not invoice_in.get("amount") or float(invoice_in["amount"]) <= 0:
+    raw_amount = invoice_in.get("amount")
+    try:
+        parsed_amount = float(raw_amount) if raw_amount is not None else 0.0
+    except (ValueError, TypeError):
+        parsed_amount = 0.0
+
+    if parsed_amount <= 0:
         missing_fields.append("amount")
         
     if missing_fields:
         # Save as incomplete invoice
         invoice_db = Invoice(
             transaction_id=tx_id,
-            invoice_number=invoice_in.get("invoice_number", "UNKNOWN"),
+            invoice_number=invoice_in.get("invoice_number", "UNKNOWN") or "UNKNOWN",
             vendor_id="VEND999",  # Generic unknown/incomplete vendor
-            amount=float(invoice_in.get("amount", 0.0)),
+            amount=parsed_amount,
             invoice_date=inv_date,
             po_number=invoice_in.get("po_number"),
             status="pending_review",
