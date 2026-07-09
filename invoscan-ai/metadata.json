@@ -1,0 +1,8 @@
+{
+  "name": "InvoScan AI",
+  "description": "An AI-powered invoice fraud detection tool that extracts invoice data and reviews them against common fraud red flags.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
