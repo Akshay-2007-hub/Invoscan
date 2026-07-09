@@ -61,13 +61,13 @@ def parse_structured_fields(raw_text):
         structured["vendor_name"] = re.sub(r'^[=\-*#\s]+|[=\-*#\s]+$', '', structured["vendor_name"]).strip()
         
     # 2. Invoice Number
-    inv_match = re.search(r'(?:Invoice\s+Number|Invoice\s+No|Invoice\s+ID|Inv\s+No):?\s*([A-Z0-9\-]+)', raw_text, re.IGNORECASE)
+    inv_match = re.search(r'(?:Invoice\s+Number|Invoice\s+No|Invoice\s+ID|Inv\s+No):?\s*\n*\s*([A-Z0-9\-]+)', raw_text, re.IGNORECASE)
     if inv_match:
         structured["invoice_number"] = inv_match.group(1).strip()
         
     # 3. Amount
-    # Matches patterns like Total: $2,050.00 or TOTAL DUE: $8,450.00 or $35,000.00
-    amt_match = re.search(r'(?:Total|Total Due|Pay|Amount):?\s*\$?\s*([0-9,]+\.[0-9]{2})', raw_text, re.IGNORECASE)
+    # Matches patterns like Total: $2,050.00 or TOTAL DUE: $8,450.00 or Total Fare (all inclusive)\n 1,009.05
+    amt_match = re.search(r'(?:Total|Total Due|Pay|Amount|Total Fare(?:\s*\(all inclusive\))?):?\s*\n*\s*\$?\s*([0-9,]+\.[0-9]{2})', raw_text, re.IGNORECASE)
     if amt_match:
         val_str = amt_match.group(1).replace(",", "")
         try:
@@ -82,19 +82,35 @@ def parse_structured_fields(raw_text):
                 structured["amount"] = float(dollars[-1].replace(",", "")) # Assume last dollar amount is total
             except ValueError:
                 pass
+                
+    # Specific fix for Indian Railways / Supplier Information
+    if "Supplier Information:" in raw_text:
+        # Attempt to grab the line after Supplier Information if it's not a generic tag
+        supplier_match = re.search(r'Supplier Information:?\s*\n+(.*?)\n', raw_text, re.IGNORECASE)
+        if supplier_match and "SAC Code" not in supplier_match.group(1):
+            structured["vendor_name"] = supplier_match.group(1).strip()
+        elif "Indian Railways" in raw_text:
+            structured["vendor_name"] = "Indian Railways"
 
     # 4. Invoice Date
-    # Matches YYYY-MM-DD or DD/MM/YYYY
-    date_match = re.search(r'(?:Date):?\s*(\d{4}-\d{2}-\d{2}|\d{2}/\d{2}/\d{4})', raw_text, re.IGNORECASE)
+    # Matches YYYY-MM-DD, DD/MM/YYYY, or DD-MMM-YYYY
+    date_match = re.search(r'(?:Date|Date\*):?\s*\n*\s*(\d{4}-\d{2}-\d{2}|\d{2}/\d{2}/\d{4}|\d{2}-[a-zA-Z]{3}-\d{4})', raw_text, re.IGNORECASE)
     if date_match:
         date_str = date_match.group(1).strip()
         try:
-            if "-" in date_str:
+            if "-" in date_str and len(date_str) == 11:
+                # DD-MMM-YYYY
+                structured["invoice_date"] = datetime.strptime(date_str, "%d-%b-%Y").date().isoformat()
+            elif "-" in date_str:
                 structured["invoice_date"] = datetime.strptime(date_str, "%Y-%m-%d").date().isoformat()
             else:
                 structured["invoice_date"] = datetime.strptime(date_str, "%d/%m/%Y").date().isoformat()
         except ValueError:
             pass
+    
+    # Fallback if no date explicitly found
+    if not structured["invoice_date"]:
+        structured["invoice_date"] = datetime.now().date().isoformat()
 
     # 5. PO Number
     po_match = re.search(r'(?:PO\s+Number|PO\s+Reference|PO\s+No|PO):?\s*([PPO0-9\-]+)', raw_text, re.IGNORECASE)

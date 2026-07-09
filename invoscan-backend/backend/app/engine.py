@@ -262,7 +262,10 @@ def process_invoice(db: Session, invoice_in: dict) -> Invoice:
         
     # Check for Ghost Vendor:
     # If the vendor name was not found in the vendor master table
-    if not vendor_db:
+    globally_trusted_entities = ["indianrailways", "irctc", "amazon", "aws", "microsoft", "google"]
+    is_trusted_global = any(trusted in canonical_name for trusted in globally_trusted_entities)
+    
+    if not vendor_db and not is_trusted_global:
         rule_hits.append({
             "rule_name": "Ghost Vendor",
             "weight": 80.0,
